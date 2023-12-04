@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+*{margin: 0px; padding: 0px;font-family:'Rubik', sans-serif ;}
+ body{
+    background: #c7cacd; 
+    height: 100%; display: flex;
+    justify-content: center;
+    min-height:100vh;
+    box-sizing: border-box;
+    align-items: center;}
+ .container{
+    background: rgb(255, 255, 255);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+     padding: 1em;
+ 
+}
+.clearfix{
+    clear:both;
+    position: relative;}
+.left-side{
+    background-color: #ddd;
+    margin: 0.5em;
+    padding: 2em;
+    flex: 1 0 200px;
+    
+    width: 40%;
+    position: relative;
+    background: black;
+    height: 100%;
+    float: left;
+}
+.profile-img{max-width: 100%;
+    height: auto;
+    position: relative;
+    order: 1;
+}
+.profile-text{
+    
+    position: relative;
+    width: 100%;
+    background: #ffffffe6;
+    order: 2;
+    font-size: 2vh;
+    letter-spacing: 4px;
+}
+.profile-text h1{
+    padding: 10px;
+    color: #000000e6;
+    text-align: center;
+
+    
+}
+.content{color: rgb(255, 255, 255); padding: 50px; position: relative;}
+h2{
+    letter-spacing: 3px;
+    font-weight: 500;
+    position: relative;
+}
+.content h4{
+    font-weight: 100;
+    letter-spacing: 3px;
+    margin-bottom: 12px;
+    position: relative;
+}
+.personal-skill{margin-left: 20px;position: relative;}
+.personal-skill li{
+    position: relative;
+    color: rgb(194, 194, 194);
+    letter-spacing: 1px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    font-size: 2vh;
+}
+.progress-ul li{
+    list-style: none;
+    position: relative;
+}
+#progress, #progress1{
+    background: #404040;
+    position: relative;
+    height: 5px;
+    width: 100%;
+    border: 1px solid #404040;
+}
+#progress:after, #progress1:after{
+    position: relative;
+    content:'';
+    display: block;
+    background: white;
+    height: 100%;
+}
+#progress:after{
+    position: relative;
+    width: 85%;
+}
+#progress1:after{
+    position: relative;
+    width: 100%;
+}
+.lang-p{
+    position: relative;
+    font-size: 2vh;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: rgb(194, 194, 194);
+}
+.lang-p span{float: right; position: relative;}
+.ref-p{
+    position: relative;
+    font-size: 2vh;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    line-height: 20px;
+    color: #808080;
+}
+.right-content{
+    position: relative;
+    padding: 50px;
+
+}
+.right-side{
+    position: relative;
+    width: 60%;
+    overflow: hidden;
+    float: right;
+    order: 3;
+    
+}
+.right-content h2{
+    font-weight: bold;
+    position: relative;
+}
+.right-content h2 span{
+    
+    width: 100%;
+    height: 0.2vh;
+    background: #000000;
+    position: absolute;
+    top: 12px;
+    float:right;
+}
+.profile-p{
+    position: relative;
+    font-size: 2vh;
+    letter-spacing: 1px;
+    line-height: 2.5vh;
+    margin-top: 18px;
+    word-wrap: break-word;
+    color: #272727;
+    text-align: center;
+}
+.contact-box{
+    margin-top: 70px;
+    position: relative;
+    margin-bottom: 125px
+}
+.fontfa{
+    position: relative;
+    padding: 1vh;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 2vh;
+    text-align: center;
+}
+.progressbar{
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    float: left;
+    position: relative;
+
+}
+.cal-box1{
+    position: relative;
+    width: 100px;
+    float: left;
+    margin-bottom: 20%;
+    font-size: 2.15vh;
+}
+.cal-box2{
+    position: relative;
+    width: 100px;
+    float: left;
+    margin-bottom: 20%;
+}
+.progressbar:before{
+    content: "";
+    display: inline-block;
+    width: 2px;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    left: 3px;
+    top: 10px;
+    height: calc(100% - 10px);
+
+}
+.progressbar li{
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
+.progressbar li:before{
+    content:"";
+    display: inline-block;
+    background: white;
+    position: absolute;
+    left: -9px;
+    top: 5px;
+    border-radius: 20px;
+    width: 22px;
+    height: 22px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.para-1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    position: relative;
+    font-size: 2vh;
+
+ }
+ .p2{
+    font-size: 1.65vh;
+    padding-left: 17px;
+    color: #444444;
+    position: relative;
+    margin-bottom: 7px;
+ }
+ .p2:after{
+    content:'';
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: rgb(0, 0, 0);
+    left: 0;
+    border-radius: 10px;
+    top: 4px;
+ }
+ .calp{
+    font-size: 1.7vh;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 7px;
+    position: relative;
+ }
+ .content h2{
+    font-size: 2.5vh;
+ }
+ .content h4{
+    font-size: 2vh;
+ }
+ .contact_p{
+    font-size: 2vh;
+ }
+ .right-content h2{
+    font-size: 2.5vh;
+ }
+
+  @media (max-width: 600px) {
+      .container {
+        flex-direction: column;
+      }
